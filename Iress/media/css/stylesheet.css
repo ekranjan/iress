@@ -1,0 +1,89 @@
+       html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {  
+       margin: 0;  
+       padding: 0;  
+       border: 0;  
+       font-size: 100%;  
+       font: inherit;  
+       vertical-align: baseline; 
+        }
+        body, .mainContent{
+            font-family: DIN,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+            width:100%;
+        }
+        
+        h1{
+        font-size: 2rem;
+        line-height: 56px;
+        
+        margin-bottom:20px;
+        }
+        
+        h3{
+        font-size: 1.4rem;
+        line-height: 32px;
+        margin-bottom:20px;
+        }
+        
+        p{margin-bottom:10px;}
+        
+        ul {list-style-type:none;}
+    
+        li{padding:10px 0px 0px;}
+    
+        li i{padding: 0px 10px 0px 0px; color:#e62e43;}
+        
+        section{margin:30px 0px;}
+        
+        .container {
+            display: flex;
+            width:100%;
+        }
+        .petResult{
+            display: flex;
+            flex-direction: column;
+            border-radius: 8px;
+            border: 1px solid #d8dbe3;
+            background-color:#f2f4f7;
+            padding:3%;
+            width:44%;
+            
+        }
+        .petResult:first-child{
+            margin-right:5%;
+        }
+        
+        .globalHeaderWrapper{
+            box-shadow: 0 2px 8px rgb(0 0 0 / 5%)
+        }
+        
+        .globalHeaderWrapper, section{
+            padding: 20px 50px; 
+        }
+    
+        .footer {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            background: #090d14;
+            color:#fff;
+            padding:2% 5%;
+            margin-top:5%;
+        }
+    
+    @media (max-width: 540px) {
+            .container {
+                display: block;
+            }
+          .petResult{
+            width:80%;
+            padding:10%;
+            }
+            .petResult:first-child{
+            margin-right:0px;
+            margin-bottom:20%;
+        }
+        .globalHeaderWrapper, section{
+            padding: 10%; 
+        }
+        }
+     
+
